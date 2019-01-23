@@ -11,14 +11,100 @@
 }
 img {
     width: 100%;
+    height: auto;
 }
+
 p {
 	color: $secondary-color;
 	font-size: 1rem;
     font-family: $secondary-font;
 }
+h5 {
+    font-family:$primary-font;
+    font-size: 60px;
+    text-transform: uppercase;
+}
 .bg-black {
     background-color: $secondary-color!important;
+}
+.link {
+    color: $primary-color !important;
+    font-family: $primary-font !important;
+    text-transform: uppercase;
+    font-size: 20px;
+    border: 2px solid $primary-color;
+    width: 40%;
+    padding: 5px;
+    text-align: center;
+    margin-top: 20px;
+ }
+.carousel {
+  position: relative !important;  
+}
+.carousel-caption {
+    text-align: left; 
+    padding-bottom: 130px !important;
+     p {
+        text-align: left !important;
+        font-size: 1rem;
+        font-family: $secondary-font;
+        color: white !important;
+    }
+    a {
+        font-size: 1.5rem !important;
+        color:#313335 !important;
+        padding: 10px 40px;
+        background-color: $primary-color;
+        border: 2px solid $primary-color !important;
+        font-family: $primary-font !important;
+        text-transform: uppercase;
+    }
+    a:hover {
+        font-size: 1.5rem !important;
+        color:white !important;
+        padding: 10px 40px;
+        background-color: transparent;
+        border: 2px solid white !important;
+        font-family: $primary-font !important;
+        text-transform: uppercase;
+    }
+}
+
+.carousel-control-prev-icon {
+  background-image: url(../img/icons/back.png);
+  width: 30px;
+  height: 30px;
+}
+.carousel-control-next-icon {
+  background-image: url(../img//icons/next.png);
+  width: 30px;
+  height: 30px;
+}
+.center {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;    
+}
+
+.card-deck {
+    width: 90%;
+    margin-top: 30px;
+    h5 {
+        font-size: 35px;
+    }
+    p {
+        margin-bottom: 10px;
+    }
+    .card {
+        border: 1px solid rgba(0, 0, 0, 0.25);
+    }
+    i {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
 }
 .nav-item {
     width: 1.5rem;
@@ -152,4 +238,27 @@ p {
         }
     }
     
+}
+.people {
+    card-img-top {
+        height: 356px;
+    }
+}
+.eventos {
+    height: auto;
+    max-width: 33.3%;
+}
+.eventos-item {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+
+    h5 {
+        font-size: 35px;
+    }
+
 }
