@@ -21,7 +21,7 @@ p {
 }
 h5 {
     font-family:$primary-font;
-    font-size: 60px;
+    font-size: 30px;
     text-transform: uppercase;
 }
 .bg-black {
@@ -37,6 +37,11 @@ h5 {
     padding: 5px;
     text-align: center;
     margin-top: 20px;
+ }
+ .index {
+    h5 {
+        font-size: 60px;
+    }
  }
 .carousel {
   position: relative !important;  
@@ -106,6 +111,12 @@ h5 {
         margin-left: 10px;
     }
 }
+.notices {
+
+
+}
+
+
 .nav-item {
     width: 1.5rem;
     margin-left: 1rem;
@@ -244,9 +255,23 @@ h5 {
         height: 356px;
     }
 }
+.personajes {
+    /*background-color: #232323;*/ 
+    h5 {
+        /*color: white;*/ 
+        margin-top: 30px;
+    }
+    p {
+        /*color: white;*/ 
+    }
+}
 .eventos {
     height: auto;
+    flex: 0 0 33.333333%;
     max-width: 33.3%;
+    position: relative;
+    width: 100%;
+    
 }
 .eventos-item {
     height: auto;
