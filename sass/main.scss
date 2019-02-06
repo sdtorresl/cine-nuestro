@@ -196,10 +196,10 @@ a .link {
             background-color: white;
             transform-origin: 50% 50%;
             &:nth-child(1) {
-                transform: rotate(45deg);
+                transform: rotate(45deg) translate(38%);
             }
             &:nth-child(2) {
-                transform: rotate(-45deg);
+                transform: rotate(-45deg) translate(34%);
             }
         }
     }
