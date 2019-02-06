@@ -27,7 +27,7 @@ h5 {
 .bg-black {
     background-color: $secondary-color!important;
 }
-.link {
+a .link {
     color: $primary-color !important;
     font-family: $primary-font !important;
     text-transform: uppercase;
@@ -38,11 +38,24 @@ h5 {
     text-align: center;
     margin-top: 20px;
  }
+ a .link:hover {
+    color: white;
+    background-color: $primary-color; 
+   
+ }
  .index {
     h5 {
         font-size: 60px;
     }
  }
+ .slider {
+    font-family: sans-serif;
+    scroll-snap-type: mandatory;
+    scroll-snap-points-y: repeat(100vw);
+    scroll-snap-type: x mandatory;
+    display: flex;
+    overflow-x: scroll;
+}
 .carousel {
   position: relative !important;  
 }
@@ -258,8 +271,9 @@ h5 {
 .personajes {
     /*background-color: #232323;*/ 
     h5 {
-        /*color: white;*/ 
-        margin-top: 30px;
+        /*color: white;*/         
+        font-size: 30px;
+
     }
     p {
         /*color: white;*/ 
